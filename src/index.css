@@ -2,3 +2,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+html{
+    user-select: none;
+}
+body{
+    background:rgba(249, 250, 251);
+}
+
+.active{
+    @apply text-yellow-600;
+}
+.home-page{
+    min-height: 40rem;
+}
+.small-btn{
+    @apply bg-yellow-600 text-white px-2 rounded-full text-xl hover:shadow-md;
+}

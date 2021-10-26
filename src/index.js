@@ -6,4 +6,6 @@ import App from "./app/App";
 // *Import Global styles
 import "./index.css";
 
-reactDom.render(<App/>,document.getElementById("root"));
+import {BrowserRouter} from "react-router-dom";
+
+reactDom.render(<BrowserRouter><App/></BrowserRouter>,document.getElementById("root"));

@@ -1,6 +1,13 @@
-const App=()=>{
+import Navigation from "../components/Navigation";
+import Router from "../routes/Router";
+
+const App = () => {
     return (
-        <h1>Hello World!</h1>
+        <>
+        <Navigation/>
+
+        <Router />
+        </>
     )
 }
 
