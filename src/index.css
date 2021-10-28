@@ -8,6 +8,7 @@ html{
 }
 body{
     background:rgba(249, 250, 251);
+    overflow-x: hidden
 }
 
 .active{

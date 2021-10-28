@@ -14,7 +14,7 @@ const Home = () => {
 
                 </div>
             </section>
-            <section className="container mx-auto">
+            <section className="container mx-4 sm:mx-auto">
                 <h2 className="text-2xl my-10">Products:</h2>
                 <Products />
             </section>
