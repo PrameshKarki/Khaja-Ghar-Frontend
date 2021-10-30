@@ -29,7 +29,7 @@ const ProductItem = (props) => {
                 </div>
                 <h3 className="text-black m-3 text-xl font-medium">{product.name}</h3>
                 <div className="flex justify-between my-2">
-                    <span className=" font-normal">$ {product.price}</span>
+                    <span className=" font-normal">Rs.{product.price}</span>
                     <button disabled={isAdding} className={`${isAdding ? "bg-green-500" : "bg-yellow-600"} rounded-full hover:shadow-md px-3`} onClick={(e) => { addToCartHandler(e, product._id) }}>Add{isAdding ? "ed" : ""}</button>
                 </div>
             </div>

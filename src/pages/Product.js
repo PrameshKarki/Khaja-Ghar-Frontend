@@ -7,7 +7,6 @@ import CartContext from "../store/cart-context";
 
 
 const Product = (props) => {
-
     const { productID } = useParams();
     const [product, setProduct] = useState({});
     const history = useHistory();
@@ -16,7 +15,6 @@ const Product = (props) => {
 
     useEffect(() => {
         fetch(`http://localhost:4000/api/products/${productID}`).then(res => res.json()).then(data => {
-            console.log(data);
             setProduct(data);
         })
     }, [productID])

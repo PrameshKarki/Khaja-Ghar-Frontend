@@ -8,8 +8,7 @@ const Products = () => {
 
     useEffect(() => {
         fetch("http://localhost:4000/api/products").then((res) => { return res.json() }).then((data) => {
-            console.log(data);
-            setProducts(data);
+        setProducts(data.reverse());
         })
     }, [])
 

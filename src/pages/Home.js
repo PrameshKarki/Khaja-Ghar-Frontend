@@ -6,7 +6,7 @@ const Home = () => {
             <section className="home-page flex justify-between items-center container mx-auto my-10">
                 <div className="w-1/2">
                     <p className=" text-3xl text-gray-500">Are you hungry?</p>
-                    <h3 className=" text-7xl font-bold my-5">Don't wait!</h3>
+                    <h3 className=" text-7xl font-bold my-5 leading-custom">Taste the difference!</h3>
                     <button className=" bg-yellow-600  text-xl text-white rounded-full py-2 px-5 mt-2 hover:shadow-md">Order Now</button>
                 </div>
                 <div>
